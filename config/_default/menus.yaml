@@ -1,0 +1,8 @@
+menu:
+  buttons:
+    - name: "Let's talk"
+      url: "/#contact"
+      weight: 1
+    - name: "How we work"
+      url: "/how-we-work/"
+      weight: 2

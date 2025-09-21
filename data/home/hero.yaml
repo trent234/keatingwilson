@@ -1,0 +1,9 @@
+enable: true
+title: 'IT Project <span class="text-slate-500">Leadership</span> in Insurance and Finance'
+text: "Plan – Communicate – Execute."
+buttons:
+  - label: "Let's talk"
+    url: "/#contact"
+  - label: "How we work"
+    url: "/how-we-work/"
+image: "images/hero.png"

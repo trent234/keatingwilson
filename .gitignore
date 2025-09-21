@@ -1,0 +1,7 @@
+.aider*
+public/
+resources/
+.hugo_build.lock
+.hugo_cache/
+.DS_Store
+node_modules/

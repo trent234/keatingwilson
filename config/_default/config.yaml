@@ -1,0 +1,6 @@
+baseURL: "https://keatingwilson.com/"
+languageCode: "en-us"
+theme: "hugo-up-business"
+outputs:
+  home:
+    - HTML
