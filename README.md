@@ -26,5 +26,25 @@ Images are in '/img/team/'
 
 View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
 
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+# Build locally
+
+```
+# install dependencies
+sudo pacman -S ruby ruby-erb
+gem install bundler jekyll
+
+bundle init
+
+# keep gems in the repo (no sudo needed)
+bundle config set --local path 'vendor/bundle'
+bundle config set --local bin  'vendor/bundle/bin'
+
+# (optional but useful) ensure bundler doesn’t try system paths
+unset GEM_HOME GEM_PATH
+
+# install
+bundle install
+
+# serve
+bundle exec jekyll serve
+```
